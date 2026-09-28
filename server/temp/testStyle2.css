@@ -1,0 +1,659 @@
+/* =========================================================
+   General
+   ========================================================= */
+
+.scroll-button {
+  background-color: #0f3d63;
+}
+
+/* =========================================================
+   Super Navigation
+   ========================================================= */
+
+.supernav {
+  background-color: #174a3a;
+}
+
+/* =========================================================
+   Main Navigation
+   ========================================================= */
+
+.nav-bar_background-visible {
+  background-color: #f1f5f1;
+}
+
+.nav-bar .regular-nav .nav-pages li.active {
+  background-color: transparent;
+  border-bottom: 2px solid #b58a3b;
+}
+
+.nav-menu.active > a {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.nav-bar a:not(.fa),
+.nav-bar .nav-menu-label:not(.fa) {
+  font-family: "Lato";
+}
+
+.nav-pages li:hover {
+  background-color: transparent !important;
+  border-bottom: 2px solid #c89b3c;
+}
+
+.nav-pages li .dropdown .dropdown-content {
+  padding: 20px;
+  text-align: left;
+  background-color: #f1f5f1;
+}
+
+.nav-menu.active-trail .dropdown .dropbtn .nav-menu-label {
+  background-color: transparent !important;
+  font-weight: bold;
+}
+
+/* =========================================================
+   Home Page Banner
+   ========================================================= */
+
+.call-to-action h1 {
+  margin: 0;
+  font-size: 50px;
+  color: #174a3a;
+}
+
+.call-to-action h2 {
+  margin: 25px 0 30px;
+  font-size: 26px;
+  color: #174a3a;
+}
+
+.call-to-action .learn-more {
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  border: 2px solid #b58a3b;
+  background-color: #b58a3b;
+}
+
+.call-to-action .learn-more:hover {
+  background-color: transparent;
+}
+
+.call-to-action .learn-more h3 {
+  margin: 10px 0 0;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #202b27;
+  font-family: "Lato";
+  font-weight: 600;
+}
+
+/* =========================================================
+   Links
+   ========================================================= */
+
+a:hover {
+  color: #3e6b89;
+  text-decoration: underline;
+}
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+#footer {
+  background-color: #174a3a;
+}
+
+#footer .pull-right.team-address--block,
+#sub-footer {
+  display: none;
+}
+
+/* =========================================================
+   Blog
+   ========================================================= */
+
+#blogpage .blog-post .blog-post--content .blog-post--details .btn {
+  background-color: #b58a3b;
+  color: #202b27;
+  font-weight: 600;
+}
+
+#blogpage .blog-post .blog-post--content .blog-post--details .btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #b58a3b;
+}
+
+/* =========================================================
+   Forms
+   ========================================================= */
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .control-group {
+  margin-bottom: 20px;
+  /* Removed white-space: nowrap to avoid unnecessary overflow */
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .da-form-text,
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .da-validator-email,
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .da-form-paragraph,
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  textarea {
+  background-color: transparent;
+  border: 1px solid #3e6b89;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  select {
+  padding: 5px 33px;
+  background-color: transparent;
+  border: 1px solid #202b27;
+  color: #202b27;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  button[type="submit"] {
+  width: auto;
+  padding: 1% 5%;
+  border: 2px solid transparent;
+  border-radius: 0;
+  color: #000000;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  button[id^="submitFormButton"] {
+  background-color: #b58a3b;
+  border-color: #b58a3b;
+  font-family: "Lato";
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .control-group
+  .control-label {
+  float: none;
+  margin-bottom: 25px;
+  text-align: inherit;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: #202b27;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .control-group
+  label.radio,
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .control-group
+  label.checkbox {
+  padding: 0 20px;
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  color: #202b27;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  .submissionFormRow
+  .control-group
+  .da-required-selection {
+  padding-left: 10px;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  button[id^="submitFormButton"]:hover {
+  background-color: transparent;
+  border: 2px solid #b58a3b;
+  color: #202b27;
+}
+
+/* =========================================================
+   Events
+   ========================================================= */
+
+#da-portlet-wrapper #da-events .nav-tabs {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #b58a3b;
+}
+
+#da-portlet-wrapper #da-events .nav-tabs .active a {
+  background-color: #b58a3b;
+}
+
+#da-portlet-wrapper #da-events .nav-tabs a:hover {
+  background-color: #f1f5f1;
+  border-bottom: 1px solid #f1f5f1;
+}
+
+#da-portlet-wrapper #da-events .nav-tabs a h5 {
+  color: #202b27;
+}
+
+#da-portlet-wrapper #da-events .btn,
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  button[id^="submitFormButton"] {
+  background-color: #b58a3b;
+  color: #202b27;
+}
+
+#da-portlet-wrapper #da-events .btn:hover,
+#da-portlet-wrapper
+  #main-content
+  .da-form-portlet
+  .da-form-success-container
+  .form-horizontal
+  button[id^="submitFormButton"]:hover {
+  background-color: transparent;
+  border: 2px solid #b58a3b;
+  color: #202b27;
+}
+
+/* =========================================================
+   Carousel
+   ========================================================= */
+
+.carousel-inner {
+  padding-block: 6rem;
+  background-color: #f1f5f1;
+}
+
+.CarouselInner-copy p {
+  color: #202b27;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__captions
+  .carousel__caption--excerpt {
+  color: #202b27;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__captions
+  .carousel__caption--name {
+  color: #174a3a;
+  font-family: "Lora";
+  font-weight: 700;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__captions.carousel__captions--overlay {
+  background-color: #f1f5f1;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__controls
+  .carousel__control {
+  border: 0.1rem solid #b58a3b;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__controls
+  .carousel__control:hover,
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__controls
+  .carousel__control.carousel__control--active {
+  border-color: #b58a3b;
+  background-color: #b58a3b;
+}
+
+/* =========================================================
+   Icons
+   ========================================================= */
+
+.fa-phone:before,
+.fa-calendar:before,
+.fa-map-marker:before,
+.fa-envelope:before,
+.fa-facebook-f:before,
+.fa-facebook:before,
+.fa-linkedin:before {
+  color: #477665;
+}
+
+/* =========================================================
+   Updates
+   ========================================================= */
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .da-updates-portlet
+  .update
+  .update--category {
+  background-color: #f1f5f1;
+  color: #202b27;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__captions
+  .carousel__caption--name {
+  color: #174a3a;
+}
+
+/* =========================================================
+   Bio / Contact
+   ========================================================= */
+
+#da-portlet-wrapper #main-content .bio--text .bio--contact-me a {
+  color: #477665;
+}
+
+.contact-map--address {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: #202b27;
+}
+
+/* =========================================================
+   Blog Listing
+   ========================================================= */
+
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .col-md-12
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body,
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .yui3-dd-drop
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body {
+  background-color: #f1f5f1;
+}
+
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .col-md-12
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--header,
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .yui3-dd-drop
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--header,
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .col-md-12
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--subheader,
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .yui3-dd-drop
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--subheader,
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .col-md-12
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--read-more,
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .yui3-dd-drop
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--read-more {
+  color: #477665;
+}
+
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .col-md-12
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--excerpt,
+#da-layout-container
+  #da-portlet-wrapper
+  #da-portlet-content
+  #da-content-container
+  #main-content
+  .yui3-dd-drop
+  .da-latest-blogs-portlet
+  .blog-posts--traditional
+  .da-blog-entry
+  .blog-post--container
+  .blog-post--body
+  .blog-post--excerpt {
+  color: #202b27;
+}
+
+/* =========================================================
+   Blog Categories / Archives
+   ========================================================= */
+
+#da-portlet-content #main-content .da-blog-categories a,
+#da-portlet-content #main-content .da-blog-categories a:hover,
+#da-portlet-content #main-content .da-blog-categories a:visited,
+#da-portlet-content #main-content .da-blog-archives a,
+#da-portlet-content #main-content .da-blog-archives a:hover,
+#da-portlet-content #main-content .da-blog-archives a:visited {
+  color: #477665;
+}
+
+/* =========================================================
+   Poll
+   ========================================================= */
+
+#pollBlock_dapoll_WAR_daportlet_INSTANCE_HmwTM5GZSojD_ label {
+  padding-left: 8px;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: #202b27;
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+
+.btn-success {
+  color: #202b27;
+  background-color: #b58a3b;
+  border: 2px solid #b58a3b;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+}
+
+.btn-success:hover {
+  color: #202b27;
+  background-color: transparent;
+}
+
+/* =========================================================
+   Profiles
+   ========================================================= */
+
+#paprofiles-container .job-titles {
+  color: #667785;
+}
+
+#paprofiles-container .contacts_email-phones a:link,
+#paprofiles-container .contacts_social-media a:link,
+#paprofiles-container .contacts_email-phones a:hover,
+#paprofiles-container .contacts_social-media a:hover,
+#paprofiles-container .contacts_email-phones a:focus,
+#paprofiles-container .contacts_social-media a:focus,
+#paprofiles-container .contacts_email-phones a:visited,
+#paprofiles-container .contacts_social-media a:visited {
+  color: #477665;
+}
+
+#paprofiles-container .fullname_designations {
+  color: #477665;
+}
+#paprofiles-container .job-titles {
+  color: #477665;
+}
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__captions
+  .carousel__caption
+  .carousel__caption--name {
+  color: #174a3a;
+}
+
+#da-portlet-wrapper
+  #main-content
+  .da-updates
+  .carousel_update
+  .carousel__captions
+  .carousel__caption
+  .carousel__caption--excerpt {
+  color: #202b27;
+}
